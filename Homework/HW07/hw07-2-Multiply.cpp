@@ -73,5 +73,26 @@
         6 x 7 = 42
         6 x 8 = 48
         6 x 9 = 54
-
 */
+#include <stdio.h>
+
+int main(){
+    
+    int str,end,i,i2;
+    printf( "Start :\n" ) ;
+    scanf( "%d",&str ) ;
+    printf( "End :\n") ;
+    scanf( "%d",&end) ;
+    i = str;
+    while (i <= end){
+        i2 = 1;
+        while (i2 < 9){
+            i2++;
+            printf("%d x %d = %d\n",i,i2,i*i2);
+           
+        }
+        i++;
+         printf("\n");
+    }
+    return 0;
+}
