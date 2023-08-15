@@ -80,13 +80,13 @@ int main(){
     
     int str,end,i,i2;
     printf("Start :\n");
-    scanf( "%d",&str );
+    scanf("%d",&str );
     printf("End :\n");
     scanf("%d",&end);
     i = str;
     while (i <= end){
         i2 = 1;
-        while (i2 < 9){
+        while (i2 <= 9){
             printf("%d x %d = %d\n",i,i2,i*i2);
             i2++;
         }
