@@ -79,20 +79,19 @@
 int main(){
     
     int str,end,i,i2;
-    printf( "Start :\n" ) ;
-    scanf( "%d",&str ) ;
-    printf( "End :\n") ;
-    scanf( "%d",&end) ;
+    printf("Start :\n");
+    scanf( "%d",&str );
+    printf("End :\n");
+    scanf("%d",&end);
     i = str;
     while (i <= end){
         i2 = 1;
         while (i2 < 9){
             i2++;
             printf("%d x %d = %d\n",i,i2,i*i2);
-           
         }
         i++;
-         printf("\n");
+        printf("\n");
     }
     return 0;
 }
