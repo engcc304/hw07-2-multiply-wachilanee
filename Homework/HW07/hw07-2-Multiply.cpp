@@ -87,8 +87,8 @@ int main(){
     while (i <= end){
         i2 = 1;
         while (i2 < 9){
-            i2++;
             printf("%d x %d = %d\n",i,i2,i*i2);
+            i2++;
         }
         i++;
         printf("\n");
